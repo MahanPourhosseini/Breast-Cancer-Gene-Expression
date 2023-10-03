@@ -1,12 +1,14 @@
 ### Problem Statement
 This project aims to perform an exploratory data analysis (EDA) on the "Breast Cancer Gene Expression Profiles (METABRIC)" dataset. The primary goal is to gain insights and understanding from the dataset, especially regarding clinical information and its relationship with breast cancer survival. Additionally, I aim to prepare the data for further analysis and modeling.
 
-### Dataset Explanation
-The dataset used in this analysis combines clinical information related to breast cancer patients and gene-related data, including gene expressions and mutations. The dataset structure is as follows:
-
+### Data Documentation
+We will use "Breast Cancer Gene Expression Profiles (METABRIC)" data.
 - **Clinical Data**: The first 31 columns contain clinical information, including patient demographics, treatment details, and overall survival status.
 - **Gene Expression Data**: These columns include gene expression values and provide insights into the genetic characteristics of patients.
-- **Gene Mutation Data**: These columns contain information about gene mutations, which can be critical in cancer research.
+- **Gene Mutation Data**: These columns contain information about gene mutations, which can be critical in cancer research. Gene's mutation info columns have been marked with \"\\_mut\" at the end of the names of the columns.
+  
+For more information please read the [data documentation](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric).
+
 
 ### Code Explanation
 In this project, I performed the following key tasks:
